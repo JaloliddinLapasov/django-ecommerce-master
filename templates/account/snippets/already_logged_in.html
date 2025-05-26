@@ -1,0 +1,7 @@
+{% load i18n %}
+{% load account %}
+
+{% user_display user as user_display %}
+<!-- <p><strong>{% trans "Note" %}:</strong> {% blocktrans %}you are already logged in as {{ user_display }}.{% endblocktrans %}</p> -->
+<p><strong>{% trans "Eslatma" %}:</strong> {% blocktrans %}siz allaqachon {{ user_display }} sifatida tizimga
+    kirgansiz.{% endblocktrans %}</p>
